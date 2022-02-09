@@ -1,0 +1,37 @@
+.home1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 98vh;
+    align-items: center;
+    background-image: url(/public/images/register.jpg);
+}
+.register1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    background-color: rgb(229, 229, 240);
+    padding: 30px 30px;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.login1{
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background-color: rgb(229, 229, 240);
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.register1:hover{
+    background-color: rgb(147, 147, 235);
+}
+.login1:hover{
+    background-color: rgb(147, 147, 235);
+}

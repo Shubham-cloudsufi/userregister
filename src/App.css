@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 94vh;
+    background-image: url(/public/images/register.jpg);
+    width: 99vw;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form{
+    background-color: white;
+    padding: 40px 40px;
+    border-radius: 10px;
+    width: 50vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form h1{
+    text-align: center;
+    color:rgb(71, 71, 163) ;
+    background-color: rgb(208, 194, 221);
+    border-radius: 8px;
+    padding: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button{
+    width: 100%;
+    background-color: rgb(208, 194, 221);
+    padding: 14px ;
+    border-radius: 10px;
+    border-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(29, 11, 46);
 }
-
-.App-link {
-  color: #61dafb;
+.login2{
+text-decoration: none;
+background-color: rgb(208, 194, 221);
+color:rgb(71, 71, 163) ;
+padding: 4px 4px;
+margin-left: 40vh;
+text-align: right;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.home2{
+    text-decoration: none;
+    background-color: rgb(208, 194, 221);
+    color:rgb(71, 71, 163) ;
+    padding: 4px 4px;
+    margin: 5px;
+    text-align: right;
+    }
